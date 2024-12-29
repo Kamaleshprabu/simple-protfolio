@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black inset;
+    background-color: #4d4d4d;
+}
+
+.dev__name{
+    padding: 0px 10px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px aliceblue;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dev__role{
+    padding: 0px 10px;
+    font-size: 30px;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.dev__home__btn{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: red;
+    color: aliceblue;
+    margin: 5px;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.section-two{
+    margin-top: 20px;
+}
+
+.contact-form{
+    
+}
+
+.name__row,
+.email__row,
+.message__row{
+    font-weight: bold;
+}
+
+.input__box{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.input__box--msg{
+    min-width: 171.5px;
+    min-height: 50px;
+}
+
+.form-btn{
+    padding: 5px 15px;
+    margin-top: 5px;
+    margin-left: 80px;
+    background-color: #ff0000;
+    border: 2px solid black;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.section-three{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black inset;
+    background-color: #4d4d4d;
+    color: aliceblue;
+}
